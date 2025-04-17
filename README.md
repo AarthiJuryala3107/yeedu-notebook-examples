@@ -7,46 +7,50 @@ This repository contains example Yeedu notebooks (`.ipynb` files) that demonstra
 ```
 /yeedu-notebook-examples
   │
-  ├── 1_importing_data_from_url.ipynb             // Data import from URL (Iris dataset)
-  ├── 2_import_data_from_s3.ipynb                 // Data import from S3 using Apache Spark
-  ├── 3_import_data_from_gcp.ipynb                // Data import from GCP using Apache Spark
-  ├── 4_import_data_from_azure_adls.ipynb         // Data import from Azure ADLS using Apache Spark
-  ├── 5_image_metadata_analysis.ipynb             // Image metadata analysis from COCO dataset     
-  ├── 6_data_visualization_graphs.ipynb           // Data visualization using seaborn and matplotlib 
-  ├── 7_ml_model_simple.ipynb                     // Simple ML model using breast cancer data
-  ├── 8_mlflow_quick_start.ipynb                  // MLflow experiment tracking example
-  ├── 9_hyperparameter_tuning_with_sklearn.ipynb  // Hyperparameter tuning with sklearn    
+  ├── a_importing_data_from_url.ipynb             // Data import from URL (Iris dataset)
+  ├── b_import_data_from_s3.ipynb                 // Data import from S3 using Apache Spark
+  ├── c_import_data_from_gcp.ipynb                // Data import from GCP using Apache Spark
+  ├── d_import_data_from_azure_adls.ipynb         // Data import from Azure ADLS using Apache Spark
+  ├── e_image_metadata_analysis.ipynb             // Image metadata analysis from COCO dataset     
+  ├── f_data_visualization_graphs.ipynb           // Data visualization using seaborn and matplotlib 
+  ├── g_ml_model_simple.ipynb                     // Simple ML model using breast cancer data
+  ├── h_mlflow_quick_start.ipynb                  // MLflow experiment tracking example
+  ├── i_hyperparameter_tuning_with_sklearn.ipynb  // Hyperparameter tuning with sklearn
+  ├── j_querying_nyc_taxi_bigdata.ipynb           // Querying a 50GB public dataset   
   └── README.md                                   // This file
 ```
 
 ## Overview
 
-- **1_importing_data_from_url.ipynb**
+- **a_importing_data_from_url.ipynb**
 Loads data from a public URL (Iris dataset) and performs basic data inspection.
 
-- **2_import_data_from_s3.ipynb**
+- **b_import_data_from_s3.ipynb**
 Shows how to import data from an Amazon S3 bucket using Apache Spark, including credential configuration and data loading.
 
-- **3_import_data_from_gcp.ipynb**
+- **c_import_data_from_gcp.ipynb**
 Demonstrates how to import data from a Google Cloud Storage bucket using Apache Spark with credential setup.
 
-- **4_import_data_from_azure_adls.ipynb**
+- **d_import_data_from_azure_adls.ipynb**
 Illustrates data import from an Azure Data Lake Storage (ADLS) container using Apache Spark and authentication setup.
 
-- **5_image_metadata_analysis.ipynb**
+- **e_image_metadata_analysis.ipynb**
 Analyzes image metadata from the COCO dataset. Computes statistics and visualizes the distribution of image formats.
 
-- **6_data_visualization_graphs.ipynb**
+- **f_data_visualization_graphs.ipynb**
 Covers a variety of visualization techniques using Seaborn and Matplotlib — including histograms, boxplots, scatter plots, pairplots, and more.
 
-- **7_ml_model_simple.ipynb**
+- **g_ml_model_simple.ipynb**
 Implements a simple machine learning model using the built-in breast cancer dataset with a Random Forest Classifier. Includes data preprocessing and evaluation.
 
-- **8_mlflow_quick_start.ipynb**
+- **h_mlflow_quick_start.ipynb**
 Introduces MLflow for tracking experiments with a Random Forest regression model trained on the diabetes dataset.
 
-- **9_hyperparameter_tuning_with_sklearn.ipynb**
+- **i_hyperparameter_tuning_with_sklearn.ipynb**
 Performs hyperparameter tuning on the Iris dataset using GridSearchCV and RandomizedSearchCV, along with model comparison.
+
+- **j_querying_nyc_taxi_bigdata.ipynb**
+Running complex queries on Azure's open dataset NYC Taxi - Yellow (1.5B rows, 50 GB data).
 
 ## Usage
 

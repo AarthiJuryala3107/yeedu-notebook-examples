@@ -1,3 +1,6 @@
+# Download the required data (bezdekIris.data) from https://github.com/yoyolicoris/IML_HW1/blob/master/bezdekIris.data
+# Upload this file into Yeedu, copy the path, and change the data_path accordingly
+
 # ============================
 # Instructions to Deploy as Yeedu ML API
 # ============================
@@ -39,7 +42,7 @@ from sklearn.model_selection import train_test_split
  
 # Step 1: Load and Preprocess the Dataset
 columns = ["sepal_length", "sepal_width", "petal_length", "petal_width", "class"]
-data_path = "file:///files/data/bezdekIris.data"
+data_path = "file:///files/data/bezdekIris.data"              # Change accordingly
  # Change to actual path
 df = pd.read_csv(data_path, header=None, names=columns)
 df.to_csv("iris.csv", index=False)  # Save dataset for reference

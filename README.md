@@ -7,17 +7,19 @@ This repository contains example Yeedu notebooks (`.ipynb` files) that demonstra
 ```
 /yeedu-notebook-examples
   │
-  ├── a_importing_data_from_url.ipynb             // Data import from URL (Iris dataset)
-  ├── b_import_data_from_s3.ipynb                 // Data import from S3 using Apache Spark
-  ├── c_import_data_from_gcp.ipynb                // Data import from GCP using Apache Spark
-  ├── d_import_data_from_azure_adls.ipynb         // Data import from Azure ADLS using Apache Spark
-  ├── e_image_metadata_analysis.ipynb             // Image metadata analysis from COCO dataset     
-  ├── f_data_visualization_graphs.ipynb           // Data visualization using seaborn and matplotlib 
-  ├── g_ml_model_simple.ipynb                     // Simple ML model using breast cancer data
-  ├── h_mlflow_quick_start.ipynb                  // MLflow experiment tracking example
-  ├── i_hyperparameter_tuning_with_sklearn.ipynb  // Hyperparameter tuning with sklearn
-  ├── j_querying_nyc_taxi_bigdata.ipynb           // Querying a 50GB public dataset   
-  └── README.md                                   // This file
+  ├── a_importing_data_from_url.ipynb                  // Data import from URL (Iris dataset)
+  ├── b_import_data_from_s3.ipynb                      // Data import from S3 using Apache Spark
+  ├── c_import_data_from_gcp.ipynb                     // Data import from GCP using Apache Spark
+  ├── d_import_data_from_azure_adls.ipynb              // Data import from Azure ADLS using Apache Spark
+  ├── e_image_metadata_analysis.ipynb                  // Image metadata analysis from COCO dataset     
+  ├── f_data_visualization_graphs.ipynb                // Data visualization using seaborn and matplotlib 
+  ├── g_ml_model_simple.ipynb                          // Simple ML model using breast cancer data
+  ├── h_mlflow_quick_start.ipynb                       // MLflow experiment tracking example
+  ├── i_hyperparameter_tuning_with_sklearn.ipynb       // Hyperparameter tuning with sklearn
+  ├── j_querying_nyc_taxi_bigdata.ipynb                // Querying a 50GB public dataset
+  ├── k_ml_model_api.py                                // Creating an API for an ML Classification model
+  ├── l_access_pretrained_model_from_huggingface.ipynb // Working with a pretrained AI model from HuggingFace
+  └── README.md                                        // This file
 ```
 
 ## Overview
@@ -51,6 +53,13 @@ Performs hyperparameter tuning on the Iris dataset using GridSearchCV and Random
 
 - **j_querying_nyc_taxi_bigdata.ipynb**
 Running complex queries on Azure's open dataset NYC Taxi - Yellow (1.5B rows, 50 GB data).
+
+- **k_ml_model_api.py**
+Creates an API function of a simple machine learning pipeline using the Iris dataset with a RandomForest model, which works as long as the Yeedu Python Job runs.
+
+- **l_access_pretrained_model_from_huggingface.ipynb**
+Uses the `Snowflake/snowflake-arctic-embed-xs` model from Hugging Face to compute similarity scores between queries and documents.
+
 
 ## Usage
 
